@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-18T03:36:51.710Z",
+        "line": 4,
+        "name": "simple search",
+        "description": "",
+        "id": "the-application-should-be-running;simple-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1435401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5267172108,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "AmazonSteps.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2979353101,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for \"iphone 11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone 11\"",
+                  "offset": 13
+                }
+              ],
+              "location": "AmazonSteps.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31123594,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the results",
+            "match": {
+              "location": "AmazonSteps.i_should_see_the_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "The application should be running",
+    "description": "",
+    "id": "the-application-should-be-running",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/demo/features/amazonTest.feature",
+    "tags": []
+  }
+]
